@@ -1,4 +1,4 @@
-Rcpp::sourceCpp("Test/CL_cpp/CL_stat_cpp.cpp")
+Rcpp::sourceCpp("src/CL_stat_cpp.cpp")
 library(compiler)
 enableJIT(3)
 #x,y: data matrix
